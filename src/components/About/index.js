@@ -1,5 +1,4 @@
 import Header from "../Header";
-import image1 from "../../images/11.svg";
 import { aboutMeData } from "../../data";
 import { useCountUp } from "react-countup";
 import { counterData } from "../../data";

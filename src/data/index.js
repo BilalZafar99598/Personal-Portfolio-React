@@ -12,7 +12,6 @@ import image2 from "../images/2.jpg";
 import image3 from "../images/3.jpg";
 import image5 from "../images/5.jpg";
 import image6 from "../images/6.jpg";
-import image7 from "../images/7.jpg";
 
 // export const navigation = [
 //   { name: "Home", href: "#", id: "home" },

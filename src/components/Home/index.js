@@ -1,4 +1,3 @@
-import ParticlesComponent from "../Particles";
 
 export default function Home() {
     return (
