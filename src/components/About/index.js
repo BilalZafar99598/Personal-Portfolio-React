@@ -3,6 +3,8 @@ import image1 from "../../images/11.svg";
 import { aboutMeData } from "../../data";
 import { useCountUp } from "react-countup";
 import { counterData } from "../../data";
+import aboutMeImage from "../../images/4.jpg";
+
 
 const CounterItem = ({ title, counter, measurement }) => {
     return (
@@ -27,7 +29,7 @@ const About = () => {
                 <div className="block sm:flex sm:gap-10">
                     <div className="sm:overflow-auto w-full lg:w-3/4 sm:w-2/4 md:w-2/4 text-left">
                         <img
-                            src={image1}
+                            src={aboutMeImage}
                             className="rounded-lg w-96"
                             alt="About Me Image"
                         />
