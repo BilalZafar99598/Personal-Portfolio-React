@@ -14,6 +14,13 @@ import image5 from "../images/5.jpg";
 import image6 from "../images/6.jpg";
 import image7 from "../images/7.jpg";
 
+// export const navigation = [
+//   { name: "Home", href: "#", id: "home" },
+//   { name: "About", href: "#", id: "about" },
+//   { name: "Services", href: "#", id: "services" },
+//   { name: "Portfolio", href: "#", id: "portfolio" },
+//   { name: "Team", href: "#", id: "team" },
+// ];
 export const navigation = [
   { name: "Home", href: "#", id: "home" },
   { name: "About", href: "#", id: "about" },
@@ -21,7 +28,6 @@ export const navigation = [
   { name: "Portfolio", href: "#", id: "portfolio" },
   { name: "Team", href: "#", id: "team" },
 ];
-
 export const aboutMeData = [
   {
     id: 1,
@@ -103,21 +109,25 @@ export const getIcons = (getCurrentColor) => {
 
 export const projects = [
   {
+    id: 1,
     image: image1,
     title: "DEVELOPMENT",
     subtitle: "Getting tickets to the big show",
   },
   {
+    id: 2,
     image: image3,
     title: "DESIGN",
     subtitle: "Getting tickets to the big show",
   },
   {
+    id: 3,
     image: image2,
     title: "MARKETING",
     subtitle: "Getting tickets to the big show",
   },
   {
+    id: 4,
     image: image2,
     title: "ANALYTICS",
     subtitle: "Getting tickets to the big show",
@@ -132,25 +142,28 @@ export const teamSocialIcons = [
 ];
 export const teamData = [
   {
+    id:1,
     name: "Andres Berlin",
     role: `An avid open-source developer who loves to be creative and inventive. I have 20 years of experience in the field.`,
     image: image5,
     position: "Principal Software Engineer",
   },
-
   {
+    id:2,
     name: "Charles Keith",
     role: `An avid open-source developer who loves to be creative and inventive. I have 20 years of experience in the field.`,
     image: image6,
     position: "UX Designer",
   },
   {
-    name: "Rachel Adams",
+    id:3,
+    name: "Andres Berlin",
     role: `An avid open-source developer who loves to be creative and inventive. I have 20 years of experience in the field.`,
-    image: image7,
-    position: "Product Design Manager",
+    image: image5,
+    position: "Principal Software Engineer",
   },
   {
+    id:4,
     name: "Rachel Adams",
     role: `An avid open-source developer who loves to be creative and inventive. I have 20 years of experience in the field.`,
     image: image6,

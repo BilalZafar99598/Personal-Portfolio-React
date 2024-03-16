@@ -44,7 +44,8 @@ const About = () => {
                         <div className="mt-10 sm:mt-20 shadow-sm">
                             <div className="container mx-auto py-3 block sm:flex sm:justify-between items-center">
                                 {counterData.map((item) => (
-                                    <CounterItem
+                                    <CounterItem 
+                                        key={item.id}
                                         title={item.title}
                                         counter={<span id={item.id} />}
                                         measurement={item.measurement}
